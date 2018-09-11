@@ -16,27 +16,27 @@ int math(int num1, int num2, char Operator){
          * ~ Bitwise Inverse (~num1) for this operation, num1 and num2 are still needed
         */
         case '+':
-            return num1 + num2;     // add
+            return num1 + num2;     // returns the sum of num1 and num2
         case '-':
-            return num1 - num2;     // subtract
+            return num1 - num2;     // returns the difference of num1 and num2
         case '*':
-            return num1 * num2;     // multiply
+            return num1 * num2;     // returns the product of num1 and num2
         case '/':
-            return num1 / num2;     // divide
+            return num1 / num2;     //
         case '%':
-            return num1 % num2;     // modulo
+            return num1 % num2;     // returns the modulo of num1 and num2
         case '<':
-            return num1 << num2;    // left shift
+            return num1 << num2;    // left shifts num1 num2 times
         case '>':
-            return num1 >> num2;    // right shift
+            return num1 >> num2;    // right shift num1 num2 times
         case '&':
-            return num1 & num2;     // bitwise and
+            return num1 & num2;     // bitwise ands num1 and num2
         case '|':
-            return num1 | num2;     // bitwise or
+            return num1 | num2;     // bitwise ors num1 and num2
         case '^':
-            return num1 ^ num2;     // bitwise xor
+            return num1 ^ num2;     // bitwise xors num1 and num2
         case '~':
-            return ~num1;           // bitwise inverse
+            return ~num1;           // bitwise inverses num1
         default:
             return 0;
     }
